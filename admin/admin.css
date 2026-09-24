@@ -1,0 +1,77 @@
+body {
+    background-image: url("../IMAGES/cer1.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  header{
+      background-color: #f1f1f1;
+        padding: 20px 10px;
+  }
+  
+  h1{
+      color: black;
+      text-shadow: 2px 2px gold;
+  }
+  
+  input[type='Submit']{
+      background-image: url(../IMAGES/graph.gif);
+      width: 30%;
+    height: 40px;
+    border: none;
+    color: #800000;
+    -webkit-border-radius: 10px;
+    font-size: 120%;
+    cursor: pointer;
+  }
+  
+  input[type='Submit']:focus{
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    color: #800000;
+    -webkit-border-radius: 10px;
+    font-size: 150%;
+    cursor: pointer;
+  }
+  
+  .madmin{
+    padding-top: 100px;
+    padding-left: 50px;
+      width:100%;
+    height: 100px;
+  }
+  
+  .mdona{
+    margin-left: 400px;
+    width: 100%;
+    height: 100px;
+  
+  }
+  
+  .mleav{
+    margin-left: 800px;
+    width: 100%;
+    height: 100px;
+  }
+  
+  
+  input[id='Log_Out']{
+    background-image: url(../IMAGES/graph.gif);
+    width: 10%;
+    height: 22px;
+    border: none;
+    border-radius: 4px;
+    color: #800000;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  footer{
+     position: absolute;
+      bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #f1f1f1;
+    float: right;
+  }

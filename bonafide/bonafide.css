@@ -1,0 +1,115 @@
+body 
+{
+    background-image: url("../IMAGES/cer1.gif");
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+img{
+  float: left;
+
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  border-radius: 5px;
+  padding: 5px;
+  width: 110px;
+
+  background-image: #A9A9A9;
+  background-size: cover; 
+}
+
+header{
+  background-image: url("../IMAGES/graph.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 6px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+form{
+  float: right;
+}
+
+select {
+  width: 100%;
+  height: 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+input{
+  width: 100%;
+  height: 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+input[type=button], input[type=reset] {
+  background-color: #708090;
+  border: none;
+  color: white;
+  padding: 6px 3px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 50%;
+  height: 40%;
+}
+
+input[type=submit]{
+  background-color: #708090;
+  border: none;
+  color: white;
+  padding: 6px 3px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 50%;
+  height: 40%;
+}
+
+input[id='Log_Out']{
+  background-image: url("../IMAGES/graph.gif");
+  width: 100%;
+  height: 22px;
+  border: none;
+  border-radius: 4px;
+  color: #800000;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+input[id='Back_off']{
+  background-image: url("../IMAGES/graph.gif");
+  height: 5%; 
+  width :100%
+  cursor  pointer;
+  float: left;
+}
+
+table{
+  background-image: url("../IMAGES/graph.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+table, th, td {
+    padding: 1.5%;
+    border: 1px ;
+    width: 500px;
+    font-size: 20px;
+    color: white;
+}
+
+form{
+  box-sizing: 700px;
+  border-radius: 700px;
+}
+
+
+
